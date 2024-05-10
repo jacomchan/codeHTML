@@ -1,0 +1,60 @@
+* {
+  font-family: monospace
+}
+
+.website-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 2.5%;
+  margin: 20px 2.5%;
+}
+
+.website-navbar-links a{
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+}
+
+.website-navbar-links a:hover{
+  text-decoration: underline;
+  transition: 0.3s linear;
+}
+
+.website-navbar-links a:hover::after{
+  text-decoration: none;
+  transition: 0.3s linear;
+}
+
+#button {
+  border: 2px solid;
+  border-color: black;
+  border-radius: 0.25em;
+  text-decoration: none;
+  background-color: black;
+  padding: 5px;
+  margin: 5px;
+  color: white;
+}
+
+#button:hover {
+  transition: 0.15s ease-in-out;
+  text-decoration: underline;
+  padding: 10px;
+}
+
+.website-main-info1 {
+  text-align: center
+}
+
+.website-main-info2 {
+  list-style-type: none;
+}
+
+.website-main-info2-table th {
+  border:1px solid black;
+}
+
+.website-main-info2-table-tag {
+  background-color: gray;
+}
